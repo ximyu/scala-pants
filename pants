@@ -1,0 +1,6 @@
+#!/bin/bash
+
+MY_DIR=$(dirname $0)
+PANTS_EXE=${MY_DIR}/pants.pex
+
+${PANTS_EXE} "$@"

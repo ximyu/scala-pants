@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ivy-module version="2.0"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+
+  <info organisation="com.twitter" module="pants-libs"/>
+
+  <dependencies>
+    <dependency org="com.typesafe.zinc" name="zinc" rev="0.2.5" />
+    <!-- We do our own nailgunning, we don't use zinc's nailgun integration. -->
+    <exclude org="com.martiansoftware" module="nailgun"/>
+    <!-- This isn't hosted anywhere convenient, and we don't need it anyway. -->
+    <exclude org="org.ensime" module="ensime-sbt-cmd"/>
+  </dependencies>
+</ivy-module>
