@@ -30,7 +30,6 @@ htmlcov/
 ivy/
 lib/
 out/
-pants.pex
 target
 ivy
 *.class
