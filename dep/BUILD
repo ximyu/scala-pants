@@ -36,8 +36,8 @@ jar_library(name = 'thrift-0.5.0',
 )
 
 #### Twitter-specific dependencies ####
-FINAGLE_REV = '6.7.4'
-UTIL_REV = '6.7.0'
+FINAGLE_REV = '6.8.1'
+UTIL_REV = '6.8.1'
 SCROOGE_REV = '3.10.2'
 
 def make_finagle(name):
